@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Flight Tracker</string>
+    
+    <!-- Main Screen -->
+    <string name="flights_count">Flights: %d</string>
+    <string name="refresh">Refresh</string>
+    <string name="filter">Filter</string>
+    
+    <!-- Filter -->
+    <string name="filter_by_country">Filter by Country</string>
+    <string name="country_label">Country</string>
+    <string name="all_countries">All Countries</string>
+    <string name="clear_filter">Clear Filter</string>
+    <string name="countries">Countries</string>
+    <string name="search_from_countries">Search from countries</string>
+    
+    <!-- Flight Info -->
+    <string name="flight_country">Country: %s</string>
+    <string name="flight_altitude">Altitude: %dm</string>
+    <string name="flight_velocity">Velocity: %dm/s</string>
+    <string name="altitude_na">N/A</string>
+    
+    <!-- Error Messages -->
+    <string name="error_unknown">Unknown error occurred</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_invalid_bounds">Invalid map bounds</string>
+    <string name="retry">Retry</string>
+    
+    <!-- Content Descriptions -->
+    <string name="refresh_button_description">Refresh flight data</string>
+    <string name="filter_button_description">Filter flights by country</string>
+    <string name="no_internet_connection_error">No internet connection\n\nPlease check your network</string>
+    <string name="connection_timeout_error">Connection timeout\n\nPlease check your internet connection</string>
+    <string name="authentication_failed_error">Authentication failed!\n\nCheck your OpenSky credentials in local.properties</string>
+    <string name="rate_limit_exceeded_error">Rate limit exceeded!</string>
+    <string name="unknown_error">Unknown error occurred</string>
+    <string name="limited_for_performance">(Limited for performance)</string>
+</resources>
